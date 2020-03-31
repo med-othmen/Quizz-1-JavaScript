@@ -1,0 +1,178 @@
+﻿Exercice 1 :
+function sumNumber(num) {
+	let s=0
+	 for(let pas=0; pas<num; pas++){
+	 s+=i
+	  }
+}
+return s
+Exercice 2 :
+function reverse(array){
+	let arr2 = new array()
+	for(let i=0 ,j=arr.length; j=0,i<array.length; i++,j--){
+		arr2[j]=array[i]
+			}
+	for(j=0;j<arr2.length;i++){
+		alert(arr2[i])
+	}
+Exercice 3 :
+function getLastItem(array){
+	return array[array.length]
+}
+Exercice 4 :
+function concat(array1, array2)
+	let array3 = array1.concat(array2);
+
+	for(let i:=0;i<array3.length; i++){
+	console.log(array3[i])
+	}
+Exercice 5 :
+function search(array,  item){
+	let r=-1 ;
+	for(let i=0;i<array.length;i++){
+		if(array[i]===item){
+			r=i ; break ; }
+	}
+
+return r
+}
+Exercice 6 :
+function getMultipliedArr(array){
+	return  array.map(el => el*2)
+}
+	
+Exercice 7 :
+function wordLengths(array){
+	return array.map(el => el.length)
+}
+
+Exercice 8 :
+function sum(array){
+	let s=0 
+	for(let i=0;i<array.length;i++){
+		s+=+array[i]
+	}
+return ‘la somme egale’+s
+Exercice 9 :
+ function noOdds(array) {
+	for(let i=0;i<array.length;i++){
+		if((array[i] % 2)=0) {
+			return array[i]
+		}
+	}
+}
+
+Exercice 10 :
+function noOdds(array){
+	return Math.max(...array)
+
+}
+
+Exercice 11 :
+function findSmallerNum(array)
+	return Math.min(...array)
+}
+Exercice 12 :
+function firstLast(array){
+
+	var array2()
+	array2[0]=array[0]
+	array2[1]=array[array.length]
+
+	return array2
+
+}
+Exercice 13 :
+function diffMaxMin(array){
+	return Math.max(...array)-Math.min(...array)
+
+}
+Exercice 14 :
+ function multiplyByLength(array){
+	return array.map(el => el*el.length)
+}
+Exercice 15 :
+function negate(array){
+	return array.map(el => 
+	if(el<0)
+		el=-el
+	else el=+el
+)	
+}    
+Exercice 16 :
+function isFourLetters(array)   {
+	  return array.map(el => el.length=4)  }
+Exercice 17 :
+function addEnding(array, ending){
+	 return array.map(el => el+ending)}
+Exercice 18 :
+function removeNull(array){
+	return array.filter(el  => el!= "null" )}
+Exercice 19 :
+function unlucky(nums){
+	return array.filter(el  => el % 13 = 0 )}
+Exercice 20 :
+function transform(array){
+	return array.map(el => 
+	if(el % 2=0)
+		el--
+	else el++
+	)	
+} 
+Exercice 21 :
+function filterArray(array){
+	return array.filter(el  => el!= "null" )}
+
+
+Exercice 22 :
+function societyName(friends){
+	 return array.map(el => el[0]).sort().joint("")
+
+}
+Exercice 23 :
+ function findLargestNums(array){
+	return array.map(el => Math.max(...el[]) )
+
+}
+
+Exercice 24 :
+function shortToLong(array){
+	return array.sort()
+Exercice 25 :
+function toArray(num){
+	return array.form(num)
+}
+
+function toNumber(array) {
+	return array.joint("")
+}
+Exercice 26 :
+function spelling(str){
+let array=str.split()
+array[0]=str[0]
+for(i=1;i<str.length;i++){
+	for(j=1;j<(str.length-1);j++){
+		array[1]+=array[i+1]
+	}
+}
+return array
+
+Exercice 27 :
+function toArray(object){
+	return Object.entries(obj)
+}
+
+Exercice 28 :
+function getSalaries(array) {
+return  array.reduce((acc, pilot) => acc + array.salary, 0)
+}
+Exercice 29 :
+function numOfSubbarrays(array){
+array.filter(el => Array.isArry(el))
+return array.length
+}
+Exercice 30 :
+function nums(objet){
+let sum=0
+ Object.values(objet)
+}
